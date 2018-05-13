@@ -1,4 +1,4 @@
-package com.sourcebrewer.hoegarden.dsams.controller;
+package org.web.templates.spring.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,12 +13,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
-
-import com.sourcebrewer.hoegarden.dsams.model.view.DoctorClinic;
-import com.sourcebrewer.hoegarden.dsams.model.view.DoctorEntity;
-import com.sourcebrewer.hoegarden.dsams.model.view.DoctorSchedule;
-import com.sourcebrewer.hoegarden.dsams.model.view.DoctorSpecialization;
-import com.sourcebrewer.hoegarden.dsams.model.view.SearchDoctorsCriteria;
+import org.web.templates.spring.model.view.DoctorClinic;
+import org.web.templates.spring.model.view.DoctorEntity;
+import org.web.templates.spring.model.view.DoctorSchedule;
+import org.web.templates.spring.model.view.DoctorSpecialization;
+import org.web.templates.spring.model.view.SearchDoctorsCriteria;
 
 @Controller
 public class DoctorController extends BaseController {

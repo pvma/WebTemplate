@@ -1,4 +1,4 @@
-package com.sourcebrewer.hoegarden.dsams.controller;
+package org.web.templates.spring.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>DSAMS | ${pageTitle}</title>
+<title>WebTemplate | ${pageTitle}</title>
 <sec:csrfMetaTags />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=0" />
 <link href="${pageContext.request.contextPath}/resources/core/css/app.css" rel="stylesheet" />
@@ -33,7 +33,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="${pageContext.request.contextPath}/">DSAMS</a>
+          <a class="navbar-brand" href="${pageContext.request.contextPath}/">WebTemplate</a>
         </div>
 		<div id="navbar" class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-left">

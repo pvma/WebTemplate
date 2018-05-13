@@ -1,4 +1,4 @@
-package com.sourcebrewer.hoegarden.dsams.configuration;
+package org.web.templates.spring.configuration;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -8,12 +8,12 @@ import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
 
-public class DsamsInitializer implements WebApplicationInitializer {
+public class WebTemplateInitializer implements WebApplicationInitializer {
 
 	public void onStartup(ServletContext container) throws ServletException {
 
 		AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
-		ctx.register(DsamsConfiguration.class);
+		ctx.register(WebTemplateConfiguration.class);
 		ctx.setServletContext(container);
 
 		ServletRegistration.Dynamic servlet = container.addServlet(

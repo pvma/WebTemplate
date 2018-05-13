@@ -1,4 +1,4 @@
-package com.sourcebrewer.hoegarden.dsams.configuration;
+package org.web.templates.spring.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -14,9 +14,9 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.sourcebrewer.hoegarden")
-@Import({ DsamsSecurityConfiguration.class })
-public class DsamsConfiguration extends WebMvcConfigurerAdapter {
+@ComponentScan(basePackages = "org.web.templates.spring")
+@Import({ WebTemplateSecurityConfiguration.class })
+public class WebTemplateConfiguration extends WebMvcConfigurerAdapter {
 
 	@Override
 	public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {

@@ -1,4 +1,4 @@
-package com.sourcebrewer.hoegarden.dsams.model.view;
+package org.web.templates.spring.model.view;
 
 public class DoctorSchedule {
 	private int id;

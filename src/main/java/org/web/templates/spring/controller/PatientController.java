@@ -1,4 +1,4 @@
-package com.sourcebrewer.hoegarden.dsams.controller;
+package org.web.templates.spring.controller;
 
 import java.security.Principal;
 
@@ -6,9 +6,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
-import com.sourcebrewer.hoegarden.dsams.model.util.StringUtil;
-import com.sourcebrewer.hoegarden.dsams.model.view.PatientEntity;
+import org.web.templates.spring.model.util.StringUtil;
+import org.web.templates.spring.model.view.PatientEntity;
 
 @Controller
 public class PatientController extends BaseController {

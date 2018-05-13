@@ -1,4 +1,4 @@
-package com.sourcebrewer.hoegarden.dsams.controller;
+package org.web.templates.spring.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class DsamsController extends BaseController {
+public class WebTemplateController extends BaseController {
 	
 	
 

@@ -1,4 +1,4 @@
-package com.sourcebrewer.hoegarden.dsams.configuration;
+package org.web.templates.spring.configuration;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -9,7 +9,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 
 @Configuration
 @EnableWebSecurity
-public class DsamsSecurityConfiguration extends WebSecurityConfigurerAdapter {
+public class WebTemplateSecurityConfiguration extends WebSecurityConfigurerAdapter {
 
 	@Autowired
 	public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {

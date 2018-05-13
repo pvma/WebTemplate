@@ -1,4 +1,4 @@
-package com.sourcebrewer.hoegarden.dsams.model.view;
+package org.web.templates.spring.model.view;
 
 import java.util.List;
 

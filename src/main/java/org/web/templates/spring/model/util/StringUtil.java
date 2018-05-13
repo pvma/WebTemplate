@@ -1,4 +1,4 @@
-package com.sourcebrewer.hoegarden.dsams.model.util;
+package org.web.templates.spring.model.util;
 
 public class StringUtil {
 	public static boolean isEmpty(String str) {
